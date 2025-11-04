@@ -59,9 +59,10 @@ curl http://localhost:8080/api/pos/1 # add valid POS id here
 #### Create POS
 
 ```shell
-curl --header "Content-Type: application/json" --request POST --data '{"name":"New Café","description":"Description","type":"CAFE","campus":"ALTSTADT","street":"Hauptstraße","houseNumber":"100","postalCode":69117,"city":"Heidelberg"}' http://localhost:8080/api/pos
+ curl --header "Content-Type: application/json" --request POST --data '{"name":"Bäckerei Kohlmann","description":"great Bread","type":"B
+AKERY","campus":"INF","street":"Im Neuenheimer Feld","houseNumber":"370","postalCode":69120,"city":"Heidelberg"}' http://localhost:8080/api/pos
 ```
-
+http://localhost:8080/api/pos/6 um zu prüfen ob Post geklappt hat
 #### Update POS
 
 Update title and description:
